@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  jshl:
+    image: ${DOCKER_REGISTRY}jshl
+    build:
+      context: .\JSHL
+      dockerfile: Dockerfile
